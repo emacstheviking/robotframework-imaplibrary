@@ -136,7 +136,7 @@ class ImapLibrary(object):
         return body
 
     def get_links_from_email(self, email_index):
-        """Returns all links found in the email body from given ``email_index``.
+        """Returns all <A> href values found in the email body from given ``email_index``.
 
         Arguments:
         - ``email_index``: An email index to identity the email message.
